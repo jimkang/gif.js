@@ -29,7 +29,7 @@ var masks = [0x0000, 0x0001, 0x0003, 0x0007, 0x000F, 0x001F,
 
 function LZWEncoder(width, height, pixels, colorDepth) {
   var remaining;
-  var curpixel;
+  var curPixel;
   var n_bits;
   var initCodeSize = Math.max(2, colorDepth);
 
